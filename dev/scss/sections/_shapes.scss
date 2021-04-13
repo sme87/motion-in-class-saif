@@ -1,0 +1,33 @@
+#shapes{
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". shapes .";
+
+    >div{
+        height: 100vh;
+        grid-area: shapes;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .box{
+            width: 100px;
+            height: 100px;
+			margin-top: 700px;
+        }
+
+        #red-ball{
+            background: radial-gradient(circle at 100px 100px, #eead82, rgb(170, 83, 43));
+            border-radius: 100%;
+        }
+
+    }
+	#line{
+		height: 10px;
+		width: 100%;
+		background-color: black;
+		margin-bottom: 65px;
+		position: fixed;
+		bottom: 0;
+	}
+}
