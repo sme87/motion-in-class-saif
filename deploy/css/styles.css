@@ -380,7 +380,7 @@ textarea {
       height: 100px;
       margin-top: 700px; }
     #shapes > div #red-ball {
-      background: radial-gradient(circle at 100px 100px, #eead82, #aa532b);
+      background: radial-gradient(circle at 100px 100px, #dd5050, #af3333);
       border-radius: 100%; }
   #shapes #line {
     height: 10px;
