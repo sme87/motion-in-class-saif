@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/bower_components\/gsap\/.bower.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -1177,12 +1185,46 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/shapes.kit" : {
+    "\/design\/svg-container.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/design\/svg-container.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dev\/content\/svg-container.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/shapes.html",
+      "oAP" : "\/dev\/content\/svg-container.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/background.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/background.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/foreground.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/foreground.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/svg\/moon.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/moon.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -1217,7 +1259,7 @@
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 3,
-      "sC" : 3,
+      "sC" : 0,
       "tS" : 0
     },
     "\/dev\/scss\/base\/_base.scss" : {
@@ -1360,7 +1402,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/_shapes.scss" : {
+    "\/dev\/scss\/sections\/_svg-container.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1368,7 +1410,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_shapes.css",
+      "oAP" : "\/dev\/scss\/sections\/_svg-container.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1450,6 +1492,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/svg-setup.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/svg-setup.sketch",
+      "oF" : 0
     }
   },
   "hooks" : [

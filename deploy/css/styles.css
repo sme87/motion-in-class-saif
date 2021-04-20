@@ -365,27 +365,23 @@ textarea {
 /* =============
     Footer
 ============= */
-#shapes {
+#svg-container {
   display: grid;
   grid-template-columns: auto 80% auto;
-  grid-template-areas: ". shapes ."; }
-  #shapes > div {
-    height: 100vh;
-    grid-area: shapes;
+  grid-template-areas: ". svg-container .";
+  height: 100vh; }
+  @media (min-width: 768px) {
+    #svg-container {
+      grid-template-columns: auto 70% auto; } }
+  @media (min-width: 992px) {
+    #svg-container {
+      grid-template-columns: auto 60% auto; } }
+  @media (min-width: 1200px) {
+    #svg-container {
+      grid-template-columns: auto 1200px auto; } }
+  #svg-container > div {
     display: flex;
-    justify-content: center;
-    align-items: center; }
-    #shapes > div .box {
-      width: 100px;
-      height: 100px;
-      margin-top: 700px; }
-    #shapes > div #red-ball {
-      background: radial-gradient(circle at 100px 100px, #dd5050, #af3333);
-      border-radius: 100%; }
-  #shapes #line {
-    height: 10px;
-    width: 100%;
-    background-color: black;
-    margin-bottom: 65px;
-    position: fixed;
-    bottom: 0; }
+    align-items: center;
+    grid-area: svg-container; }
+    #svg-container > div svg {
+      width: 100%; }
